@@ -3284,40 +3284,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		color: #000000;
-		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-justify-content: -moz-flex-end;
-		-webkit-justify-content: -webkit-flex-end;
-		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
-		position: relative;
-		cursor: default;
-		text-align: center;
-		z-index: 1;
-		min-height: 100vh;
-	}
-	#intro1 {
-		color: #000000;
+		color: #ffffff;
 		font-size: 25px;
 		padding-left: 10%;
 		padding-right: 10%;
-		-webkit-text-stroke: 1px rgb(0, 0, 0);
+		padding-top: 5%;
+		padding-bottom: 15%;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3342,6 +3314,9 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
+	}
+	#intro1 {
+
 	}
 
 		#intro input, #intro select, #intro textarea {
